@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+
+  <body>
+    <div class = "container">
+      <h1>Tell me who you are!</h1>
+      <h2>please</h2>
+    <div id="user-info">
+      <form>
+        <div class="form-group">
+          <label for="firstname">First Name</label>
+          <input id="firstname" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="lastname">Last Name</label>
+          <input id="lastname" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="food">Favorite Food(s)</label>
+          <input id="food" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="music">Favorite Music</label>
+          <input id="music" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="color">Choose your favorite color</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+
+        <div>
+          <label>Select the following creatures you like.</label>
+          <div class="checkbox">
+            <label for="animal">
+              <input type="checkbox" value="" class="animal">
+              Dogs
+            </label>
+          </div>
+          <div class="checkbox">
+            <label for="animal">
+              <input type="checkbox" value="" class="animal">
+              Cats
+            </label>
+          </div>
+          <div class="checkbox">
+            <label for="animal">
+              <input type="checkbox" value="" class="animal">
+              Humans
+            </label>
+          </div>
+        </div><!--checkbox div-->
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+
+<!--OUTPUT-->
+    <div id="confirm">
+      <p>Hi, <span class="output1"></span>. It looks like your last name is <span class="output2"></span>. Your favorite food is <span class="output3"></span>!
+      Your favorite music is <span class="output4"></span> which is really cool (I guess). Your favorite color is <span class="output5"></span> and your favorite creature(s) is/are <span class="output6"></span>. It was great to get to know you!</p>
+    </div>
+
+  </div>
+  </body>
+</html>
