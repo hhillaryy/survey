@@ -5,13 +5,13 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Survey About You</title>
   </head>
 
   <body>
     <div class = "container">
       <h1>Tell me who you are!</h1>
-      <h2>please</h2>
+      <h3>or else...</h3>
     <div id="user-info">
       <form>
         <div class="form-group">
@@ -35,36 +35,46 @@
           <input id="color" class="form-control" type="color">
         </div>
 
-        <div>
+        <div class="form-group">
+          <label for="animal">Favorite animal</label>
+          <input id="animal" class="form-control" type="text">
+        </div>
+
+
+<!-- radio button idea that didn't work
+        <div class="animal">
           <label>Select the following creatures you like.</label>
-          <div class="checkbox">
+          <div class="radio">
             <label for="animal">
-              <input type="checkbox" value="" class="animal">
+              <input type="radio" value="dogs" id="dog">
               Dogs
             </label>
           </div>
-          <div class="checkbox">
+          <div class="radio">
             <label for="animal">
-              <input type="checkbox" value="" class="animal">
+              <input type="radio" value="cats" id="cat">
               Cats
             </label>
           </div>
-          <div class="checkbox">
+          <div class="radio">
             <label for="animal">
-              <input type="checkbox" value="" class="animal">
+              <input type="radio" value="humans" id="human">
               Humans
             </label>
           </div>
-        </div><!--checkbox div-->
+        </div>-->
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
     </div>
 
 <!--OUTPUT-->
+
+  <div class="container">
     <div id="confirm">
       <p>Hi, <span class="output1"></span>. It looks like your last name is <span class="output2"></span>. Your favorite food is <span class="output3"></span>!
-      Your favorite music is <span class="output4"></span> which is really cool (I guess). Your favorite color is <span class="output5"></span> and your favorite creature(s) is/are <span class="output6"></span>. It was great to get to know you!</p>
+      Your favorite music is <span class="output4"></span> which is really cool (I guess). Your favorite color is <span class="output5"></span> and your favorite creature is a <span class="output6"></span>. It was great to get to know you!</p>
     </div>
+  </div>
 
   </div>
   </body>

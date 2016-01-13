@@ -5,7 +5,8 @@ $(document).ready(function() {
     var favFood = $("#food").val();
     var favMusic = $("#music").val();
     var favColor = $("#color").val();
-    var favAnimal = $(".animal").val();
+    var favAnimal = $("#animal").val();
+
 
     $(".output1").text(fName);
     $(".output2").text(lName);
